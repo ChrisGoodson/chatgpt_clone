@@ -16,7 +16,7 @@ function loader(element) {
     if (element.textContent === '....') {
       element.textContent = '';
     }
-  }, 300)
+  }, 333)
 }
 
 function typeText(element, text) {
@@ -28,7 +28,7 @@ function typeText(element, text) {
       index++
     } else
       clearInterval(interval);
-  }, 20)
+  }, 8)
 }
 
 function generateUniqueId() {
